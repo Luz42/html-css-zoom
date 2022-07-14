@@ -8,6 +8,7 @@
 
 body{
     color: #fff;
+    font-family: sans-serif;
 }
 
 img {
@@ -114,6 +115,16 @@ footer{
     z-index: 5;
 }
 
+footer select{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: rotate(180deg);
+    background-color: #222222;
+    border: none;
+    color: white;
+}
+
 footer i{
     font-size: x-large;
     padding: 0 25%;
@@ -170,5 +181,9 @@ footer .icon{
 
 #green{
     color: #49c800;
+}
+
+select{
+    display: inline-block;
 }
 /* end LOWER */
