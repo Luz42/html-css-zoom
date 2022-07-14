@@ -85,16 +85,17 @@ main{
     background-image: url(https://picsum.photos/200);
     margin: 0.4% 0.2%;
 }
-  }
+
 
   span{
-    color: black;
+    color: #fff;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     z-index: 1;
-    bottom: 1vh;
+    bottom: 2%;
     left: 0;
     padding: 0.3vh;
+    FONT-SIZE: 0.8rem;
   }
 
 /* end MIDDLE */
