@@ -1,0 +1,43 @@
+
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* img {
+    width: 100%;
+} */
+
+/* end */
+
+/* end CSS RESET */
+
+/* ------Utilities------ */
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+
+/* ------Content------ */
+
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
