@@ -12,6 +12,7 @@ body{
 
 img {
     width: 100%;
+    /* height: calc(79vh / 5); */
 }
 
 .debug{
@@ -48,6 +49,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     height: 7vh;
+    z-index: 5;
 }
 
 .high-action .button{
@@ -64,17 +66,28 @@ nav{
 
 /* MIDDLE */
 main{
-    background-color: orange;
+    background-color: black;
     flex-grow: 1;
-    padding: 2% 5% 0;
+    padding: 8vh 8vh 10vh;
     justify-content: space-between;
     /* padding-top: 2%; */
-    align-content: start;
+    /* align-content: start; */
 }
 
 .card{
-    width: calc(100% / 7 - 5px);
+    width: calc(100% / 7 - 0.3%);
     flex-shrink: 0;
+    position: relative;
+  }
+
+  span{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    z-index: 1;
+    bottom: 1vh;
+    left: 0;
+    padding: 0.3vh;
   }
 
 /* end MIDDLE */
@@ -90,6 +103,7 @@ footer{
     /* display: flex; */
     justify-content: space-between;
     height: 10vh;
+    z-index: 5;
 }
 
 footer i{
