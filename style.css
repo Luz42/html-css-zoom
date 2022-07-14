@@ -72,8 +72,17 @@ footer{
     width: 100%;
     color: #fff;
     /* padding: 1%; PROVA CON LINE-HEIGHT */
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     height: 10vh;
 }
+
+footer i{
+    padding: 0 25%;
+}
+
+footer p{
+    text-align: center;
+}
+
 /* end LOWER */
