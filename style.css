@@ -15,9 +15,9 @@ img {
     /* height: calc(79vh / 5); */
 }
 
-.debug{
+/* .debug{
     flex-basis: 100vh;
-}
+} */
 
 /* ------Utilities------ */
 
@@ -68,16 +68,23 @@ nav{
 main{
     background-color: black;
     flex-grow: 1;
-    padding: 8vh 8vh 10vh;
-    justify-content: space-between;
+    padding: 8vh 8vh 12vh;
+    /* justify-content: space-between; */
     /* padding-top: 2%; */
     /* align-content: start; */
 }
 
 .card{
-    width: calc(100% / 7 - 0.3%);
+    width: calc(100% / 7 - 0.4%);
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     flex-shrink: 0;
     position: relative;
+    background-image: url(https://picsum.photos/200);
+    margin: 0.4% 0.2%;
+}
   }
 
   span{
