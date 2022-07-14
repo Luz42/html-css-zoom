@@ -1,4 +1,4 @@
-
+/* ------Generics------ */
 /* CSS RESET */
 * {
     box-sizing: border-box;
@@ -6,13 +6,13 @@
     margin: 0;
 }
 
-/* img {
+img {
     width: 100%;
-} */
+}
 
-/* end */
-
-/* end CSS RESET */
+.debug{
+    flex-basis: 100vh;
+}
 
 /* ------Utilities------ */
 
@@ -24,6 +24,10 @@
     flex-direction: column;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /* .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -31,13 +35,45 @@
 
 
 /* ------Content------ */
-
+/* UPPER */
 nav{
     background-color: black;
     position: fixed;
     width: 100%;
     color: #fff;
-    padding: 1%;
+    /* padding: 1%; PROVA CON LINE-HEIGHT */
     display: flex;
     justify-content: flex-end;
 }
+/* end UPPER */
+
+/* MIDDLE */
+main{
+    background-color: orange;
+    flex-grow: 1;
+    padding: 2% 5% 0;
+    justify-content: space-between;
+    /* padding-top: 2%; */
+    align-content: start;
+}
+
+.card{
+    width: calc(100% / 7 - 5px);
+    flex-shrink: 0;
+  }
+
+/* end MIDDLE */
+
+/* LOWER */
+footer{
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    /* padding: 1%; PROVA CON LINE-HEIGHT */
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+/* end LOWER */
