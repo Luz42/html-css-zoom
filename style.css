@@ -78,11 +78,46 @@ footer{
 }
 
 footer i{
+    font-size: x-large;
     padding: 0 25%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.left-action, .center-action, .end-action{
+    align-items: center;
+    /* flex-basis: calc(100% / 3); */
+}
+
+.center-action{
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+.end-action{
+    /* flex-basis: calc(100% / 3); */
+    flex-grow: 1;
+}
+
+.left-action{
+    flex-grow: 1;
+}
+
+.left-action>div{
+    padding: 0 10%;
 }
 
 footer p{
-    text-align: center;
+font-size: 0.7rem;
 }
 
+footer .icon{
+    position: relative;
+}
+
+.end-action{
+    text-align: right;
+}
 /* end LOWER */
